@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Jomhuria&family=Lemonada:wght@300;400;500;600;700&family=Montserrat+Alternates:wght@300;400&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,500;1,700;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+/* besics for website*/
+i{
+    font-size: 14px;
+}
+ul
+{
+    list-style: none;   
+}
+
+/* besics for website*/
+/* start choose-main-diet*/
+#choose-main-diet
+{
+    padding: 20px 20px; 
+    text-align: center;
+      
+}
+
+.skill {
+   
+    margin-bottom: 20px;
+    width: 400px;
+    margin: 0 auto 20px;
+}
+  
+.skill .first {
+    display : flex;
+    justify-content: space-between;
+    align-items : center
+  }
+  
+.skill .first .head h4 {
+    font-size: 15px;
+   color:#c1bcbc;
+  }
+  
+  
+.skill .first .square h4 {
+    font-size: 12px;
+    color    :#c1bcbc;
+    display  : block
+  }
+  
+.progress {
+    height: 21px;
+    z-index: 0;
+    background-color: #e9ecef;
+    border-radius   : 19px;
+    position: relative;
+    width: 100%;
+}
+.progress span {
+    left: 0;
+    top: 0;
+    transition: .3s;
+    z-index: 2;
+    height: 100%;
+    background-color:#42c366;
+    position: absolute;
+    border-radius: 19px;
+ }
+#choose-main-diet h2
+{
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+#choose-main-diet .box
+{
+margin-bottom: 0px;
+padding: 30px 50px;
+border-radius: 5px;
+border: 1px solid #000;
+margin-bottom: 20px;
+cursor: pointer;
+transition: .3s;
+}
+#choose-main-diet .boxs div.active
+{
+    background-color:#D7F8DB;
+    border-color: #D7F8DB;
+}
+#choose-main-diet .box img
+{
+    width: 60px;
+    margin-bottom: 10px;
+}
+#choose-main-diet .box h3
+{
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+#choose-main-diet button
+{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 0px;
+    padding: 15px 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#choose-main-diet button.back
+{
+    margin-top: 20px;
+}
+#choose-main-diet button.next
+{
+    background-color: #42C366;
+    color: #fff;
+}
+/* end choose-main-diet*/
+/* start health-goals*/
+#Health-Goals
+{
+    padding: 20px 20px; 
+    text-align: center;
+      
+}
+#Health-Goals h2
+{
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+#Health-Goals .boxs
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#Health-Goals .box
+{
+margin-left: 10px;
+padding: 10px 20px;
+border-radius: 5px;
+border: 1px solid #000;
+margin-bottom: 20px;
+cursor: pointer;
+transition: .3s;
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 48%;
+}
+#Health-Goals .boxs div.active
+{
+    background-color:#D7F8DB;
+    border-color: #D7F8DB;
+}
+#Health-Goals .box span
+{
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+#Health-Goals .box img
+{
+    width: 30px;
+}
+
+#Health-Goals button
+{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#Health-Goals button.next
+{
+    background-color: #42C366;
+    color: #fff;
+}
+/* end health-goals*/
+/*your profile*/
+#Your-Profile
+{
+    padding: 20px;
+    text-align: center;
+}
+form h3
+{
+    margin-bottom: 10px;
+    text-align: left;
+}
+form input,
+form select
+{
+    display: block;
+    width: 100%;
+    padding: 16px 10px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid #c1bcbc;
+
+}
+/*your profile*/
+/*your meal*/
+#meal
+{
+    padding: 20px;
+    text-align: center;
+}
+#meal h2
+{
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/*your profile*/
